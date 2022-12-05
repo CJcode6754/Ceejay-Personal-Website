@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/* Home Code */
+.Home{
+    background-color: #191919;
+    height: 100vh;
+    width: 100%;
+}
+
+.btn{
+    background-color: #7a1af7;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+.side-view{
+    position: absolute;
+    width: 45%;
+    height: 90%;
+    bottom: 1px;
+    right: 60px;
+}
+.side-view img{
+    position: absolute;
+    height: 90%;
+    left: 50%;
+    bottom: 50;
+    transform: translateX(-50%);
+ } 
+ .content{
+    position: absolute;
+    top: 50%;
+    left:8%;
+    transform: translateY(-50%);
+ }
+
+h1{
+    color:white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.fb img{
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    margin-top: -5%;
+}
+.IG img{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: -5%;
+}
+.Email img{
+    height: 44px;
+    width: 44px;
+    margin-left: 20px;
+    margin-top: -5%;
+}
+.Github img{
+    height: 46px;
+    width: 46px;
+    margin-left: 20px;
+    margin-top: -5%;
+}
+/* About Code */
+#About{
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+}
+#About img{
+    height: auto;
+    width: 430px;
+    border-radius: 20px;
+}
+.about-text{
+    width: 550px;
+}
+.About-content{
+    width: 1130px;
+    max-width: 95%;
+    margin: 70px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.about-text p{
+    color: rgba(218, 95, 218, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+/* Portfolio Code */
+#Portfolio{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #191919;  
+}
+.goma-cat{
+    width: 150px;
+    height:150px;
+    margin-left:370px;
+    margin-top:10%;
+}
+.peach-cat{
+    width: 150px;
+    height:150px;
+    margin-left:650px;
+    margin-top:10%;
+}
+/* unordered line - bullet  */
+.Info ul{
+    margin-left: 700px;
+    margin-top: -13%;
+}
+.Info ul h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #7a1af7;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.Info ul li{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+/* order line */
+.hobbies h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #7a1af7;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.hobbies ol{
+    margin-left: 700px;
+    margin-top: 2%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.hobbies-1{
+    width: 150px;
+    height:150px;
+    margin-left:370px;
+    margin-top:-10%;
+    border-radius: 10px;
+}
+.hobbies-2{
+    width: 150px;
+    height:150px;
+    margin-left:670px;
+    margin-top:1%;
+    border-radius: 10px;
+} 
+/* Skills Code */
+#skills{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #191919; 
+} 
+
+table{
+    width: 800px;
+    height: 400px;
+    margin-top: 100px;
+}
+th{
+    background-color: #7a1af7;
+    font-size: 15px;
+    font-weight: bold;
+}
+td{
+    background-color: #3c3f44;
+}
+table, th, td{
+    align-items: center;
+    border: 2px #B1AFFF solid;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 15px;
+    color: white;
+}
+td img{
+    height: 30px;
+    width: 30px;
+}
+.first-star{
+    margin-left: 30px;
+}
+.second-star{
+    margin-left: 45px;
+}
+.third-star{
+    margin-left: 50px;
+}
+/* Contact Code */
+#contact-me{
+    height: 100vh;
+    width: 100%;
+    background: #191919;
+}
+
+#form h2{
+    margin-top: 100px;
+    color: #7a1af7;
+ }
+ /* FORM */
+ form{
+    width: 90%;
+    max-width: 700px;
+ }
+ .input-group{
+    margin-bottom: 10px;
+ }
+ .input-group ::-webkit-input-placeholder{
+    color:black;
+ }
+ input{
+    height: 60px;
+    border-radius: 20px;
+ }
+ textarea{
+    height: 250px;
+    border-radius: 15px;
+ }
+ input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #7a1af7;
+    background: #8BBCCC;
+    font-size: 15px;
+ }
+button{
+    color: #000000;
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    background: #8BBCCC;
+    border: 2px solid #7a1af7;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .4s;
+}
+button:hover{
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 2px solid #7a1af7;
+    cursor: pointer;
+} 
+
+
+/* Navigation Code */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+   color:white;
+   font-size: 35px;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+span {
+   color: #7a1af7;
+}
+nav ul li{
+   list-style-type: none;
+   display: inline-block;
+   padding: 10px 25px;
+}
+nav ul li a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+nav ul li a:hover{
+   color:#7a1af7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
